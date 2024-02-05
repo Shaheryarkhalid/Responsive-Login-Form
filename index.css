@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #1abc95;
+}
+.Wrapper{
+    height: 100%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:50vh;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius:10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0,0, 0.3);
+    background-color: #fff;
+}
+.Wrapper .headding{
+    padding:30px 30px 15px 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #16a085;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.Wrapper .Login-Form{
+    position: relative;
+    align-self: center;
+    padding:50px;
+}
+.Login-Form .row{
+    position: relative;
+    margin-top:20px ;
+    height:40px;
+    font-size: 2rem;
+}
+.row i{
+    background-color: #16a085;
+    color:#fff;
+    padding:10px;
+    font-size: 20px;
+    position: absolute;
+    top:4px;
+    border-radius:5px 0 0 5px;
+}
+.row input{
+    height:100%;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgba(0,0,0, 0.3);
+    padding:20px 40px 20px 40px;
+    transition: all 0.3s linear;
+}
+.row input:focus{
+    border: 1px solid #16a085;
+    box-shadow: 0 0 3px #16a085 inset;
+}
+.row .Btn-Login{
+    width:100%;
+    background-color: #16a085;
+    color:#fff;
+    font-size:1.3rem;
+    cursor: pointer;
+    padding:0;
+    margin-top: 0px;
+}
+.row .Btn-Login:hover{
+    background-color: #1abc95;
+}
+.Login-Form .link{
+    margin-top: 10px;
+}
+.Links{
+    color:#16a085;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.Login-Form .Links:hover{
+    text-decoration: underline;
+}
+.link-2{
+    text-align: center;
+    padding-top:10px;
+}
